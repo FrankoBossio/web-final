@@ -1,0 +1,560 @@
+body { /*fondo de pagina*/
+ background: url(img/wall.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+a { 
+	color:black;
+	text-decoration: none;
+
+}
+
+
+
+/*principal*/
+
+.contenedor{ 
+	width: 100%;
+	margin: 0 auto;
+	overflow:hidden;
+ }
+
+
+.headerprincipal {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.titulo {
+	border: 2px solid white;
+	float: left; 
+	margin: 30px 600px 30px 600px;
+	display: flex;
+	justify-content: center;
+}
+
+#principal {
+	color: #4FDEDE;
+	font-family: perpetua;
+	float: left;
+	margin: 20px 1000px 20px 50px;
+	display: grid;
+	grid-template-columns: 400px 200px 350px 300px;
+	grid-template-rows: 150px 100px 100px 100px;
+
+}
+
+/*pagina inicio*/
+
+.biografia {
+	background: #00000066;
+	color: #fff;
+	height: 600px; width: 350px;
+	padding: 20px
+}
+
+
+/*menu*/
+
+.contenedor{
+	width: 80%
+	margin:0 auto;
+}
+
+
+#menu {
+	width: 100%;
+	background: #00000066;
+	text-align: center;
+}
+
+#menu ul {
+	list-style: none;
+	
+	
+}
+
+#menu ul li {
+	display:inline-block;
+	padding: 20px;
+	transition: all .3s ease;
+	float: center;
+
+
+}
+
+#menu ul li:hover {
+	transform: scale(1.2);
+	background:#00000066;
+}
+ 
+#menu ul li a {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-family: 'Do Hyeon', sans-serif;
+
+}
+ 
+ /*slide*/
+
+.container{
+  margin: auto;
+  background-color: #00000066;
+  width: 1000px;
+  padding: 30px;
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+ul.slider{
+  position: relative;
+  width: 1000px;
+  height: 500px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; 
+}
+
+ul.slider li:target {
+    opacity: 1; 
+}
+
+.menuslide{
+  text-align: center;
+  margin: 20px;
+}
+
+.menuslide li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menuslide li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+/*videos*/
+
+.video2{ 
+	position: relative;
+	left: 500px; 
+	bottom: 2px
+}
+
+/* discografia*/
+
+
+#spotify{
+	position: relative;
+	left: 500px;
+
+}
+
+.tapadisco{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left:700px;
+	bottom: 400px;
+	height: 350px
+	width: 350px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	box-shadow: 0px 15px 25px #00000066
+	
+
+
+}
+
+/*integrantes*/
+
+
+.fotofer{
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 50px;
+height: 450px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor: pointer;
+
+}
+
+
+
+
+.fotolean{
+display: flex;
+justify-content: center;
+align-items: center;
+left: 350px;
+bottom: 400px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066
+
+}
+
+
+.fotorodri{
+display: flex;
+justify-content: center;
+align-items: center;
+left: 700px;
+bottom: 850px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066
+
+	
+}
+
+
+
+.fotofranko{
+display: flex;
+justify-content: center;
+align-items: center;
+left: 1050px;
+bottom: 1300px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066
+
+}
+
+
+/*contactos*/
+
+.enviar {
+	background-color: #32464F;
+	color:#FDFCFF;
+
+}
+
+.enviar:hover {
+	background-color: #7A2317
+}
+
+.enviar:active {
+	background-color: black;
+}
+
+.restablecer {
+	background-color: #32464F;
+	color:#FDFCFF;
+
+}
+
+.restablecer:hover{
+	background-color: #7A2317
+}
+
+.restablecer:active {
+	background-color: black;
+}
+.contrataciones{
+	float: left;
+	width: 450px;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px; 
+	
+}
+
+.contacto{
+	font-size: 100px;
+}
+
+.contratacion{
+	font-size: 40px;
+
+}
+
+.E-mail{
+	font-size: 25px;
+
+}
+
+.logofondo{
+	display: flex;
+	left: 500px;
+	bottom: 1100px;
+	height: 1000px;
+	width: 1000px;
+	position: relative;
+	overflow: hidden;
+	opacity: 0.2;
+
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+
+
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+
+h1{
+	color: #48494D;
+	text-align: left;
+	margin-top: 200px
+
+
+}
+
+h2{
+	color: black
+
+}
+
+h3{
+	color: #48494D;
+	text-align: left;
+	margin-top: 20px
+}
+
+h5 {
+	color: #48494D;
+	text-align: left;
+	margin-top: 20px
+}
+
+
+/*noticias*/
+
+
+.VillaLasRosas{
+justify-content: center;
+align-items: center;
+bottom:0px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor:pointer;
+}
+
+.Krakovia{
+justify-content: center;
+align-items: center;
+left: 500px;
+bottom: 445px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor:pointer;
+
+}
+
+.UrbanClub{
+justify-content: center;
+align-items: center;
+left: 1000px;
+bottom: 890px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor:pointer;
+}
+
+.RefugioGuernica{
+justify-content: center;
+align-items: center;
+bottom: 700px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor:pointer;
+}
+
+.CasaBabylon{
+justify-content: center;
+align-items: center;
+left: 500px;
+bottom: 1150px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor:pointer;
+}
+
+.CasaBabylonOctubre{
+justify-content: center;
+align-items: center;
+left: 1000px;
+bottom: 1600px;
+height: 450px;
+width: 300px;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0px 15px 25px #00000066;
+cursor:pointer;
+}
+
+
+
+ 
+/*Footer*/
+
+
+footer {
+
+	color: black;
+	width: 97%;
+	height: 25px;
+	bottom: 0;
+	text-align: right;
+	position: fixed;
+}
+
+
+}
+@media ( max-width: 575px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+/*Barra redes sociales*/ 
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 45%;
+	font-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: #fff;
+	text-decoration: none;
+	padding-left: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook {
+	background: #23406e;
+}
+
+
+.icon-instagram{
+	background: #dd2a7b;
+}
+
+
+.icon-youtube {
+	background: #c4302b;
+}
+
+.icon-spotify{
+	background: #81b71a;
+
+
+}
+
+.icon:first-child{
+	border-radius: 1rem 0 0 0 ;
+}
+
+.icon:last-child{
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 0 1rem;
+	box-shadow: 0 0 .5 rgba(0, 0, 0, 0.42);
+}
